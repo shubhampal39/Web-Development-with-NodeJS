@@ -1,0 +1,55 @@
+div{
+	height:80px; 
+	width:80px;
+	margin: 40px;
+	background-color: blue;
+}
+
+
+@keyframes slides{
+	from{
+		margin-left: 40px;
+	}
+	to {
+		margin-left: 300px;
+	}
+
+}
+
+@keyframes crazyslides{
+
+    0%{
+    	margin-left: 40px;
+	}
+
+	50%{
+		height: 10px;
+		background-color: red;
+		margin-left: 150px;
+
+	}
+	100%
+	{
+		margin-left: 300px;
+		background-color: green;
+	}
+
+}
+
+/*#div2{
+	animation-name: slides;
+	animation-duration: 2s;
+	animation-iteration-count: 30;
+}*/
+
+#div1:hover + div{
+	animation-name: slides;
+	animation-duration: 2s;
+	animation-iteration-count: 30;
+}
+
+#div3:hover+ div{
+	animation-name:crazyslides;
+	animation-duration: 5s;
+	animation-iteration-count: 20;
+}

@@ -1,0 +1,28 @@
+/* * for all html file*/
+*{
+	margin-top: 40px;
+	color:red;
+}
+div{
+	margin-left: 30px;
+ }
+
+p{
+	font-size: 30px;
+}
+/*for id*/
+#p2{
+	font-family: "Courier"
+}
+#p3
+{
+	margin-left: 20px;
+}
+/*for class */
+.osmpara{
+	background-color:lightpink;
+}
+
+.bigpara{
+	font-size: 50px;
+}

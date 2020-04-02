@@ -1,0 +1,20 @@
+#para1{
+font-size: 30px;
+/*font-size: 5vh*/
+}
+
+#para2{
+	font-family: monospace;
+	/*
+	font-family: serif;*//*
+	font-family: 'serif','Segoe UI','Geneva';*/
+}
+#para3{
+	font-style: italic;
+	font-weight: bold;
+}
+
+#para4{
+	word-spacing: 1px;
+	letter-spacing: 2px;
+}

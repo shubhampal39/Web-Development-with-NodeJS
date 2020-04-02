@@ -1,0 +1,36 @@
+.container{
+	background-color: lightpink;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	height: 400px;
+	align-items:center;
+	align-content:space-between; 
+	
+}
+
+.item{
+	background-color: lightblue;
+	margin: 10px;
+	height: 30px;
+	width: 100px;
+	padding: 10px;
+	font-size: 20px;
+	/*flex-grow: 1;*/
+	flex-shrink: 5;
+}
+
+#item1{
+	order: 1
+	flex-shrink:1;
+	align-self: flex-start;
+}
+
+/*#item2{
+	flex-grow: 1;
+	order: -1
+}
+#item3{
+	flex-grow: 5;
+}*/

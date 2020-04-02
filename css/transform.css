@@ -1,0 +1,39 @@
+#div1{
+	height: 70px;
+	width:70px;
+	background-color: orange;
+
+}
+#div2{
+	height: 70px;
+	width:70px;
+	background-color: orange;
+	transform: translate(30px,-30px);
+}
+#div3{
+	height: 70px;
+	width:70px;
+	background-color: orange;
+	transform: translate(-30px,30px);
+}
+#div4{
+	height: 70px;
+	width:70px;
+	background-color: orange;
+	transform: translate(-30px,-30px);
+}
+
+#div5{
+	height: 70px;
+	width:70px;
+	background-color: orange;
+	/*transform: scale(0.5);*/
+	/*transform: skew(-5deg,0);
+	*/
+/*	transform: rotate(30deg);
+*/
+	/*transform: rotateX(60deg);
+	transform: scaleX(-0.5);
+	*/
+	transform: translateX(30px);
+}

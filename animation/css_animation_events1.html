@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			padding: 100px;
+			background-color: #58A480;
+		}
+
+		#blah{
+			animation: slideIn 3s 2 ease-out;
+			width:350px;
+			height:350px;
+			border-radius: 50%;
+			background-color: #FFF;
+			margin:0 auto;
+		}
+		@keyframes slideIn{
+			0%{
+				transform: translate3d(200px,0px,0px);
+				opacity: 0;
+
+			}
+			50%{
+
+				opacity: .5;
+			}
+			100%{
+				transform: translate3d(-200px,0px,0px);
+				opacity: 0;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div id="blah"></div>
+	<script type="text/javascript">
+		var myElement=document.querySelector("#blah");
+		myElement.addEventListener("animationstart",start,false);
+		myElement.addEventListener("animationiteration",update,false);
+		myElement.addEventListener("animationend",end,false);
+		function start(e)
+		{
+			document.body.style.background-color="pink";
+		}
+		function update{
+			document.body.style.background-color="steelblue";
+		}
+		function end{
+			document.body.style.background-color="khaki";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			padding: 100px;
+			background-color: #58A480;
+		}
+
+		#blah{
+		/*animation: slideIn 3s infinite ease-out;
+		*/	width:350px;
+			height:350px;
+			border-radius: 50%;
+			background-color: #FFF;
+			margin:0 auto;
+		}
+		@keyframes slideIn{
+			0%{
+				transform: translate3d(200px,0px,0px);
+				opacity: 0;
+
+			}
+			50%{
+
+				opacity: .5;
+			}
+			100%{
+				transform: translate3d(-200px,0px,0px);
+				opacity: 0;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div id="blah" align="center" >APRIL FOOL <br> shubham pal</div>
+	<script type="text/javascript">
+		var myElement=document.querySelector("#blah");
+	</script>
+</body>
+</html>
