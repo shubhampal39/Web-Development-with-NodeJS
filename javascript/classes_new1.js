@@ -2,7 +2,7 @@ function person(name,age)
 {
 	this.firstname=name.split(" ")[0]
 	this.laastname=name.split(" ")[1]
-	this.age=age
+	//now age is private variable
 	this.isAdult=function(){return age>18}
 }
 
