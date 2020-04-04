@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<script src="jquery.js"></script>
+	<script src="todolist.js"></script>
+</head>
+<body>
+     
+   <form action="/todos" method="POST">
+   	
+   	<input  name="newtodo">
+   	<input type="submit">
+   </form>
+	<ul>
+   		{{#each todos as |todo|}}
+   		<li>{{todo.task}}</li>
+   		{{/each}}
+   	</ul>
+
+</body>
+</html>
