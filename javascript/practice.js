@@ -49,9 +49,19 @@ function square_root(n){
 	return "Hello";
 }
 
-sqrt_n(10);//not work
+//sqrt_n(10);//not work
+
 var sqrt_n=function(){
-	console.log(In second fun);
+	console.log("In second fun");
 }
 
 sqrt_n(10);// works fine
+
+let arr=['Apple',"Mango","Guava"];
+console.log(arr);
+arr.push("Banana");
+arr.pop();
+arr.shift();
+arr.unshift("Kiwi");
+arr.indexOf("Kiwi");
+
